@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf8f3">
+  <meta name="description" content="Discover considered clothing, accessories and objects for a life beautifully lived at AURELLE & CO.">
+  <title>AURELLE & CO. — A study in considered living</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="announcement">A little more lovely — complimentary delivery on orders over PKR 25,000</div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+      </button>
+      <nav class="main-nav" id="primary-navigation" aria-label="Main navigation">
+        <a href="#main">Home</a>
+        <a href="#best-sellers">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="wordmark" href="#main" aria-label="Aurelle and Co. home">AURELLE <span>&amp; CO.</span></a>
+      <div class="header-actions">
+        <button class="icon-button search-shortcut" type="button" aria-label="Go to product search" data-scroll-search>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button class="icon-button count-button" type="button" aria-label="Open wishlist, 0 items" data-open-panel="wishlist">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 8.7c0 5.2-8.4 10.1-8.4 10.1S3.6 13.9 3.6 8.7a4.2 4.2 0 0 1 7.3-2.8l1.1 1.2 1.1-1.2a4.2 4.2 0 0 1 7.3 2.8Z"/></svg>
+          <span class="count-badge" id="wishlist-count">0</span>
+        </button>
+        <button class="icon-button count-button" type="button" aria-label="Open shopping bag, 0 items" data-open-panel="cart">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span class="count-badge" id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=2200&amp;q=88" alt="A woman in a flowing neutral-toned outfit in warm afternoon light">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">A study in considered living</p>
+        <h1 id="hero-title">Every detail<br>tells your story.</h1>
+        <p>Thoughtful pieces, made for the moments that become memories.</p>
+        <a class="button button-light" href="#best-sellers">Explore the collection <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="hero-caption">The art of everyday, reimagined.</span>
+    </section>
+
+    <section class="search-section section-wrap" aria-labelledby="search-title">
+      <div class="search-copy">
+        <p class="eyebrow">Find your something</p>
+        <h2 id="search-title">A little inspiration,<br>just for you.</h2>
+      </div>
+      <form class="search-form" id="search-form" role="search">
+        <label class="sr-only" for="product-search">Search products or categories</label>
+        <input id="product-search" name="q" type="search" placeholder="Search pieces, categories…" autocomplete="off">
+        <button class="search-submit" type="submit" aria-label="Search products">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+      </form>
+      <p class="search-feedback" id="search-feedback" aria-live="polite"></p>
+    </section>
+
+    <section class="section-wrap categories-section" id="categories" aria-labelledby="categories-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Curated for your point of view</p><h2 id="categories-title">Shop by category</h2></div>
+        <a class="text-link" href="#best-sellers">Discover all pieces <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="category-grid">
+        <button class="category-card" type="button" data-category="Jewelry">
+          <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Sculptural gold earrings">
+          <span class="category-overlay"><span>01 / Adornments</span><strong>Jewelry</strong></span>
+        </button>
+        <button class="category-card" type="button" data-category="Bags">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="A refined leather handbag">
+          <span class="category-overlay"><span>02 / The finishing touch</span><strong>Bags</strong></span>
+        </button>
+        <button class="category-card" type="button" data-category="Perfumes">
+          <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="A warm amber perfume bottle">
+          <span class="category-overlay"><span>03 / A lasting impression</span><strong>Perfumes</strong></span>
+        </button>
+        <button class="category-card" type="button" data-category="Clothing">
+          <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Timeless tailored clothing">
+          <span class="category-overlay"><span>04 / Made to move</span><strong>Clothing</strong></span>
+        </button>
+        <button class="category-card" type="button" data-category="Watches">
+          <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="A classic wristwatch">
+          <span class="category-overlay"><span>05 / Time, beautifully kept</span><strong>Watches</strong></span>
+        </button>
+        <button class="category-card" type="button" data-category="Shoes">
+          <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&amp;fit=crop&amp;w=700&amp;q=82" alt="Elegant leather shoes">
+          <span class="category-overlay"><span>06 / Step into your story</span><strong>Shoes</strong></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="products-section" id="best-sellers" aria-labelledby="products-title">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">Loved for a reason</p><h2 id="products-title">The considered edit</h2></div>
+          <p class="section-note">A few forever favourites, chosen to be worn and loved on repeat.</p>
+        </div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <p class="empty-state" id="empty-state" hidden>No pieces found just yet. Try another search or <button type="button" data-clear-search>view the full edit</button>.</p>
+      </div>
+    </section>
+
+    <section class="collection-banner" id="collections" aria-labelledby="collection-title">
+      <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&amp;fit=crop&amp;w=2100&amp;q=88" alt="A relaxed, elegant look from the season's collection">
+      <div class="collection-shade"></div>
+      <div class="collection-content">
+        <p class="eyebrow">The new season / 2026</p>
+        <h2 id="collection-title">Soft forms.<br>Strong feeling.</h2>
+        <p>Meet the pieces that make room for your own kind of beautiful.</p>
+        <a class="button button-outline" href="#best-sellers">Shop the edit <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+      <div class="about-mark" aria-hidden="true">A.</div>
+      <div class="about-copy">
+        <p class="eyebrow">A note from our atelier</p>
+        <h2 id="about-title">Less, but with<br>more meaning.</h2>
+        <p>AURELLE &amp; CO. is a considered collection of things to wear, keep and pass on. We believe personal style is never about having more — it's about finding the pieces that feel like you.</p>
+        <a class="text-link" href="#contact">A little more about us <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="A portrait celebrating personal style">
+      </div>
+    </section>
+
+    <section class="reviews-section" aria-labelledby="reviews-title">
+      <div class="section-wrap reviews-inner">
+        <p class="eyebrow">Words from the studio</p>
+        <h2 id="reviews-title">A little note on these notes.</h2>
+        <p class="review-disclaimer">The sample comments below are illustrative placeholders, not verified customer reviews.</p>
+        <div class="review-grid">
+          <blockquote><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><p>“Beautifully considered, from the packaging to the piece itself. It feels like it was chosen just for me.”</p><footer>Sample review <span>— Illustrative placeholder</span></footer></blockquote>
+          <blockquote><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><p>“The kind of detail you notice more each time you wear it. Quietly special.”</p><footer>Sample review <span>— Illustrative placeholder</span></footer></blockquote>
+          <blockquote><span class="stars" aria-label="5 out of 5 stars">★★★★★</span><p>“A lovely find. Timeless, thoughtful and already part of my everyday.”</p><footer>Sample review <span>— Illustrative placeholder</span></footer></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section section-wrap" aria-labelledby="faq-title">
+      <div class="faq-intro"><p class="eyebrow">The helpful details</p><h2 id="faq-title">A few things<br>you may wonder.</h2><p>Still curious? <a href="#contact">Write us a note.</a></p></div>
+      <div class="faq-list">
+        <details name="faq"><summary>How do I place an order?<span aria-hidden="true">+</span></summary><p>Explore the edit, add a favourite to your bag and review your selection using the bag icon. This page is a frontend demonstration and does not process orders or payments.</p></details>
+        <details name="faq"><summary>How does delivery work?<span aria-hidden="true">+</span></summary><p>Delivery details and timelines would be shared at checkout by the retailer. This demo does not connect to a fulfilment service; complimentary delivery is an illustrative offer.</p></details>
+        <details name="faq"><summary>What is your return policy?<span aria-hidden="true">+</span></summary><p>Returns are handled by the retailer you purchase from. Please check its current policy before placing an order; no real purchases are made through this demonstration.</p></details>
+        <details name="faq"><summary>Which payment methods are accepted?<span aria-hidden="true">+</span></summary><p>No payment methods are collected here. The shopping bag is for preview only and this site does not provide payment processing.</p></details>
+        <details name="faq"><summary>How should I care for my pieces?<span aria-hidden="true">+</span></summary><p>Care varies by material. Follow the care card supplied with each item and store delicate accessories away from moisture, heat and direct sunlight.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="contact-inner section-wrap">
+        <div class="contact-copy"><p class="eyebrow">We'd love to hear from you</p><h2 id="contact-title">Let's start<br>a conversation.</h2><p>Questions, kind words, or just saying hello — our door is open.</p><a href="mailto:hello@aurelle.example">hello@aurelle.example</a></div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-row"><div class="field"><label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required minlength="2"></div><div class="field"><label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" autocomplete="email" required></div></div>
+          <div class="field"><label for="contact-message">Your message</label><textarea id="contact-message" name="message" rows="4" required minlength="10"></textarea></div>
+          <button class="button button-dark" type="submit">Prepare your note <span aria-hidden="true">↗</span></button>
+          <p class="form-feedback" id="contact-feedback" aria-live="polite">Demo only — your note is validated in this browser and is not sent.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-wrap">
+      <div class="footer-brand"><a class="wordmark footer-wordmark" href="#main">AURELLE <span>&amp; CO.</span></a><p>Thoughtful pieces for a life beautifully lived.</p><div class="social-links"><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a><a href="https://www.pinterest.com/" target="_blank" rel="noreferrer">Pinterest <span aria-hidden="true">↗</span></a></div></div>
+      <div class="footer-links"><h3>Explore</h3><a href="#main">Home</a><a href="#best-sellers">Shop all</a><a href="#collections">Collections</a><a href="#about">Our story</a></div>
+      <div class="footer-links"><h3>By category</h3><a href="#categories" data-footer-category="Jewelry">Jewelry &amp; accessories</a><a href="#categories" data-footer-category="Bags">Bags</a><a href="#categories" data-footer-category="Clothing">Clothing</a><a href="#categories" data-footer-category="Shoes">Shoes</a></div>
+      <div class="footer-newsletter"><h3>A letter, now and then.</h3><p>Considered notes and new arrivals, delivered thoughtfully.</p><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Your email address</label><div class="newsletter-input"><input id="newsletter-email" name="email" type="email" placeholder="Email address" required><button type="submit" aria-label="Join the newsletter">↗</button></div><p class="form-feedback" id="newsletter-feedback" aria-live="polite">Demo only — no email will be stored or sent.</p></form></div>
+    </div>
+    <div class="footer-bottom section-wrap"><span>© <span id="current-year"></span> AURELLE &amp; CO. All rights reserved.</span><span>Made for the moments that matter.</span><a href="#main">Back to top ↑</a></div>
+  </footer>
+
+  <dialog class="utility-dialog" id="utility-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-header"><div><p class="eyebrow">Your selection</p><h2 id="dialog-title">Your bag</h2></div><button class="icon-button dialog-close" type="button" aria-label="Close panel">×</button></div>
+    <div class="dialog-content" id="dialog-content"></div>
+    <p class="dialog-note">AURELLE &amp; CO. demo — no checkout or payment is available.</p>
+  </dialog>
+</body>
+</html>
